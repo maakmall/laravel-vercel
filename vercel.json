@@ -33,6 +33,11 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "database",
-        "DB_CONNECTION": "sqlite"
+        "DB_CONNECTION": "mysql",
+        "DB_HOST": "ssyf3.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_DATABASE": "test_heightflow",
+        "DB_USERNAME": "test_heightflow",
+        "DB_PASSWORD": "43af9e885a733a15cd0dc69971fb6746135df0cd"
     }
 }
