@@ -2,7 +2,7 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "public/index.php": {
+        "api/index.php": {
             "runtime": "vercel-php@0.5.4"
         }
     },
@@ -21,7 +21,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/public/index.php"
+            "dest": "/api/index.php"
         }
     ],
     "public": true,
@@ -31,7 +31,6 @@
         "APP_ENV": "development",
         "APP_DEBUG": "true",
         "APP_URL": "https://laravel-vercel-lyart-zeta.vercel.app",
-        "ASSET_URL": "https://laravel-vercel-lyart-zeta.vercel.app",
         "APP_KEY": "base64:TGaVaXwhWgjn9akhE4SCSIjGG/cQqvICUQ+PgLA3Bs0=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
